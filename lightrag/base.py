@@ -20,7 +20,6 @@ from .types import KnowledgeGraph
 # the OS environment variables take precedence over the .env file
 load_dotenv(dotenv_path=".env", override=False)
 
-
 class TextChunkSchema(TypedDict):
     tokens: int
     content: str

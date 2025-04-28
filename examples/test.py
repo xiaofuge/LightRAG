@@ -57,11 +57,11 @@ def main():
     )
 
     # Perform hybrid search
-    print(
-        rag.query(
-            "What are the top themes in this story?", param=QueryParam(mode="hybrid")
-        )
-    )
+    #print(
+    #    rag.query(
+    #        "What are the top themes in this story?", param=QueryParam(mode="hybrid")
+    #    )
+    #)
 
 
 if __name__ == "__main__":
